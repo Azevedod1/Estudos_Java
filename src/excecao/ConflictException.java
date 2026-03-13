@@ -2,7 +2,7 @@ package excecao;
 
 public class ConflictException extends RuntimeException {
 
-    public ConflictException(String mensagem){
+    public ConflictException (String mensagem){
         super(mensagem);
     }
 
